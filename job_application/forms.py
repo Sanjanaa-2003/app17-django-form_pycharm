@@ -6,3 +6,6 @@ class ApplicationForm(forms.Form):
     email = forms.EmailField()
     date = forms.DateField()
     occupation = forms.CharField(max_length=80)
+
+# Open terminal and run the following:
+#     python manage.py runserver
