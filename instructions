@@ -1,0 +1,25 @@
+******************EXECUTE THE FOLLOWING IN THE TERMINAL*********************
+
+#IF ALREADY "MY SITE" EXISTS and "DJANGO" has been already installed, start with these commands
+In Terminal:           python manage.py runserver
+(open the db.sqlite3 file from E:app17-django-form: in the db browser--open database path)
+
+
+
+#IF OPENING the PROJECT WITHOUT THE "MY SITE" FOLDER
+RUN THESE IN TERMINAL
+pip install django
+django-admin startproject mysite .
+python manage.py startapp job_application
+python manage.py runserver
+
+python manage.py makemigrations
+python manage.py migrate
+(open the db.sqlite3 file from E:app17-django-form: in the db browser--open database path)
+continue with same as " WITH MYSITE "
+
+
+
+
+
+
